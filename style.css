@@ -147,13 +147,22 @@ img {
     color: var(--onyx);
 }
 
-.about-me span {
+.about-me-content {
     position: absolute;
-    left: 5%;
+    padding: 0% 5%;
     top: 15%;
+    height: 75%;
 
     font-weight: 300;
     font-size: 1.25vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about-me span {
+    color: var(--green);
 }
 
 .right > span {
